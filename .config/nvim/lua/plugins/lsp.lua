@@ -21,7 +21,8 @@ return {
             })
         end
     },
-    { "neovim/nvim-lspconfig" },
+    { "neovim/nvim-lspconfig",
+    },
     { "hrsh7th/cmp-nvim-lsp" },
     {
         "hrsh7th/nvim-cmp",
@@ -44,7 +45,6 @@ return {
                     { name = "buffer",  keyword_length = 3 },
                 },
                 window = {
-                    completion = cmp.config.window.bordered(),
                     documentation = cmp.config.window.bordered(),
                 },
                 formatting = lsp_zero.cmp_format({ details = false }),

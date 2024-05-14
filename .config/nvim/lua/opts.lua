@@ -34,6 +34,9 @@ vim.o.wrap = false
 
 -- Current line highlight
 vim.o.cursorline = true
+vim.opt.colorcolumn = "80"
+
+
 
 
 
